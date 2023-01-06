@@ -1,7 +1,7 @@
 
 
 
-n=int(input())
+n=int(input("enter number"))
 def fun(n):
     def fun2(k,k1,o,i):
         if(le>o):
@@ -42,12 +42,12 @@ def fun(n):
         l.append((n%10)*10**s)
         n=n//10
         s+=1
-    print(l)
+    # print(l)
     le=len(l)
     print(le)
     l2=0
     l1=[]
-    fun2(100000000,1000000000,11,6)
+    fun2(1000000000,1000000000,11,6)
     fun1(1000000000,11,9,8,le)
     fun2(1000000,100000000,8,6)
     fun1(1000000,8,6,3,le)

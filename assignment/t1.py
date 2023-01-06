@@ -93,9 +93,9 @@
 
 
 #10
-# s=float(input("enter selling price 15 items"))
-# p=float(input("enter profit price 15 items"))
-# print("cost price of one item is ",(s-p)/15)    
+s=float(input("enter selling price 15 items"))
+p=float(input("enter profit price 15 items"))
+print("cost price of one item is ",(s-p)/15)    
 
 #11
 # a=int(input())
