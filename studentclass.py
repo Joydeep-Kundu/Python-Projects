@@ -1,10 +1,10 @@
 class student:
     def getdata(self,a,b):
-        self.name=a
-        self.roll=b
+        self.__name=a#name mingling
+        self.__roll=b
     def showdata(self):
-        print(self.name)
-        print(self.roll)
+        print(self.__name)
+        print(self.__roll)
 
 class student1:
     def __init__(self,a,b):
@@ -15,6 +15,10 @@ class student1:
 
 a1=student()
 a1.getdata('sdf',12)
+print()
+# print(a1.__roll)
+# print(a1.__name)
+print()
 a1.showdata()
 a2=student()
 a2.getdata('sd',132)
@@ -39,3 +43,9 @@ a1.bark()
 a1.like()
 a1.live()
 #desturcture is use to dealocate the memory space which is no more usefull to the program
+#encapsulation and data hiding
+#private datamember which cannot access outside of the class. it access by inside of the class
+#start with dubble under sccore and end with maximam single _
+#polymorphysism
+#oparator overloading is most useful and importent example of polymorphysism
+#inharitence
